@@ -10,11 +10,11 @@ class ConvertSecond {
 };
 ConvertSecond::ConvertSecond() { a = 0, b = 0 , c = 0;}
 void ConvertSecond::setData() {
-	cout << "½Ã(hour) ÀÔ·Â: ";
+	cout << "ì‹œ(hour) ìž…ë ¥: ";
 	cin >> a;
-	cout << "ºÐ(minute) ÀÔ·Â: ";
+	cout << "ë¶„(minute) ìž…ë ¥: ";
 	cin >> b;
-	cout << "ÃÊ(second) ÀÔ·Â: ";
+	cout << "ì´ˆ(second) ìž…ë ¥: ";
 	cin >> c;
 }
 int ConvertSecond::getResult() {
@@ -24,8 +24,8 @@ int ConvertSecond::getResult() {
 int main(){ 
 	ConvertSecond a;
 	a.setData();
-	cout << "ÀÔ·ÂÇÏ½Å ½Ã°£Àº ÃÑ " << a.getResult() << " ÃÊ ÀÔ´Ï´Ù." << endl;
+	cout << "ìž…ë ¥í•˜ì‹  ì‹œê°„ì€ ì´ " << a.getResult() << " ì´ˆ ìž…ë‹ˆë‹¤." << endl;
 
 	ConvertSecond b;
-	cout << "±âº» ½Ã°£Àº ÃÑ " << b.getResult() << " ÃÊÀÔ´Ï´Ù." << endl;
+	cout << "ê¸°ë³¸ ì‹œê°„ì€ ì´ " << b.getResult() << " ì´ˆìž…ë‹ˆë‹¤." << endl;
 }
