@@ -12,8 +12,6 @@ int main(){
 	Student *p;
 	p = &s;
 	cout<< s.number<< s.name << s.grade<< endl;
-	
 	cout<< (*p).number << (*p).name << (*p).grade << endl;
-	
 	cout<< p->number << p->name << p->grade << endl;
 }
